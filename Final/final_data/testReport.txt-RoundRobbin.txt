@@ -1,0 +1,62 @@
+ [Java-Lab:Final]                       Station Ticketing Simulation     [RoundRobbin]
+--------------------------------------------------------------------------------------------------------
+         고       객        정       보          |      티 켓 팅  정 보     |    열   차    정   보    |
+--------------------------------------------------------------------------------------------------------
+  ID |   NAME   | 출 발 역  | 도 착 역  |도착시간| 티켓팅 |대기시간|소요시간|대기시간|출발시간|도착시간|
+--------------------------------------------------------------------------------------------------------
+   1 |   cus1 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+   2 |   cus2 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+   3 |   cus3 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+   4 |   cus4 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+   5 |   cus5 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+   6 |   cus6 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+   7 |   cus7 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+   8 |   cus8 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+   9 |   cus9 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  10 |  cus10 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  11 |  cus11 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  12 |  cus12 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  13 |  cus13 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  14 |  cus14 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  15 |  cus15 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  16 |  cus16 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  17 |  cus17 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  18 |  cus18 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  19 |  cus19 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  20 |  cus20 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  21 |  cus21 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  22 |  cus22 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  23 |  cus23 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  24 |  cus24 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  25 |  cus25 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  26 |  cus26 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  27 |  cus27 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  28 |  cus28 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  29 |  cus29 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  30 |  cus30 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  31 |  cus31 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  32 |  cus32 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  33 |  cus33 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  34 |  cus34 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  35 |  cus35 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  36 |  cus36 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  37 |  cus37 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  38 |  cus38 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  39 |  cus39 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  40 |  cus40 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  41 |  cus41 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  42 |  cus42 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  43 |  cus43 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  44 |  cus44 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  45 |  cus45 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  46 |  cus46 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  47 |  cus47 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  48 |  cus48 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  49 |  cus49 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+  50 |  cus50 |     Seoul |   Deajeon |      0 |      0 |      0 |      1 |      0 |      0 |      4 |0
+--------------------------------------------------------------------------------------------------------
+                                                 |  합 계 |      0 |        |      0 |                 |
+          부       가       정       보          -------------------------------------                 |
+                                                 |  평 균 |   0.00 |        |   0.00 |                 |
+--------------------------------------------------------------------------------------------------------
+                                                                     Written by Dec7. / (서동규/131036)

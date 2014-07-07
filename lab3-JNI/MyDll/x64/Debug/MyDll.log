@@ -1,0 +1,20 @@
+﻿빌드 시작: 2013-08-26 오후 2:58:15
+     1>2 노드의 "C:\Users\Dec7\workspace\JNI\MyDll\MyDll.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MYDLL_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\MyDll.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MYDLL_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MYDLL_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\MyDll.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt MyDll.cpp
+         MyDll.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dec7\workspace\JNI\MyDll\x64\Debug\MyDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dec7\workspace\JNI\MyDll\x64\Debug\MyDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dec7\workspace\JNI\MyDll\x64\Debug\MyDll.lib" /MACHINE:X64 /DLL x64\Debug\dllmain.obj
+         x64\Debug\MyDll.obj
+         x64\Debug\stdafx.obj
+            C:\Users\Dec7\workspace\JNI\MyDll\x64\Debug\MyDll.lib 라이브러리 및 C:\Users\Dec7\workspace\JNI\MyDll\x64\Debug\MyDll.exp 개체를 생성하고 있습니다.
+         MyDll.vcxproj -> C:\Users\Dec7\workspace\JNI\MyDll\x64\Debug\MyDll.dll
+     1>"C:\Users\Dec7\workspace\JNI\MyDll\MyDll.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.77

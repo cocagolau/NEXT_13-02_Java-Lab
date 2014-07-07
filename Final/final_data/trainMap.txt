@@ -1,0 +1,8 @@
+	Seoul	Asan	Chuncheon	Deajeon	Wonju	Gwangju	Kyungju
+Seoul	0	20	16	29	22	0	0
+Asan	20	0	0	35	0	25	0
+Chuncheon	16	0	0	0	28	0	31
+Deajeon	29	35	0	0	23	12	15
+Wonju	22	0	28	23	0	0	32
+Gwangju	0	25	0	12	0	0	18
+Kyungju	0	0	31	15	32	18	0
